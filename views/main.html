@@ -1,0 +1,74 @@
+<!--
+<div class="jumbotron">
+  <h1>Accueil</h1>
+  <p class="lead">
+    Page d'accueil
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#/">ok<span class="glyphicon glyphicon-ok"></span></a></p>
+</div>
+
+<div class="row marketing">
+  <h4>Connexion</h4>
+  <p>
+    Page de login
+  </p>
+
+  <h4>Projet</h4>
+  <p>
+    Liste des projets et détails
+  </p>
+
+  <h4>Client</h4>
+  <p>Liste des clients et détails</p>
+
+  <h4>Chiffrage</h4>
+  <p>Liste des ouvrages</p>
+</div>
+--> <div class="container padding-container"> <div class="jumbotron hidden-xs jumbotron-bc"> <h1>BatiChiffrage Mobile</h1> <p>Phasellus luctus quis dolor eget vehicula. Suspendisse ligula nunc, iaculis id condimentum eget, tempor gravida tellus. Integer porta metus a diam consequat gravida. Curabitur imperdiet orci metus, vel blandit ante aliquam vitae? </p> <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>--> </div> <pre>form = {{filter | json}}</pre> <pre>form = {{$location.path() | json}}</pre> <a role="button" href="#" class="btn btn-success btn-lg">Ajouter un projet</a> <h3>Liste de mes 5 derniers projets</h3> <!-- Panel --> <div class="panel panel-default"> <a href="#/projet"><span class="panel-heading panel-heading-bc">Projet 0<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></span></a> <div class="panel-body"> <p>Référence du projet 0- Total HT du projet 0 - Crée le 16-04-2015 - Modifié le 16-04-2015 - Statut du projet 0</p> </div> </div> <div class="panel panel-default"> <a href="#/projet"><span class="panel-heading panel-heading-bc">Projet 1<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></span></a> <div class="panel-body"> <p>Référence du projet 1- Total HT du projet 1 - Crée le 16-04-2015 - Modifié le 16-04-2015 - Statut du projet 1</p> </div> </div> <div class="panel panel-default"> <a href="#/projet"><span class="panel-heading panel-heading-bc">Projet 2<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></span></a> <div class="panel-body"> <p>Référence du projet 2- Total HT du projet 2 - Crée le 16-04-2015 - Modifié le 16-04-2015 - Statut du projet 2</p> </div> </div> <div class="panel panel-default"> <a href="#/projet"><span class="panel-heading panel-heading-bc">Projet 3<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></span></a> <div class="panel-body"> <p>Référence du projet 3- Total HT du projet 3 - Crée le 16-04-2015 - Modifié le 16-04-2015 - Statut du projet 3</p> </div> </div> <div class="panel panel-default"> <a href="#/projet"><span class="panel-heading panel-heading-bc">Projet 4<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></span></a> <div class="panel-body"> <p>Référence du projet 4- Total HT du projet 4 - Crée le 16-04-2015 - Modifié le 16-04-2015 - Statut du projet 4</p> </div> </div> <a class="btn btn-success btn-lg" href="#" role="button">Ajouter un client</a> <h3>Liste de mes 5 derniers clients</h3> <div class="panel panel-default"> <a href="#/client"><span class="panel-heading panel-heading-bc">Nom et Pr&eacute;nom client 0<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></span></a> <div class="panel-body"> <p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> : <span style="padding-right: 15px">04-77-21-61-98</span> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> : <span style="padding-right: 15px">test@test0.fr</span></p> </div> </div> <div class="panel panel-default"> <a href="#/client"><span class="panel-heading panel-heading-bc">Nom et Pr&eacute;nom client 1<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></span></a> <div class="panel-body"> <p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> : <span style="padding-right: 15px">04-77-21-61-98</span> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> : <span style="padding-right: 15px">test@test0.fr</span></p> </div> </div> <div class="panel panel-default"> <a href="#/client"><span class="panel-heading panel-heading-bc">Nom et Pr&eacute;nom client 2<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></span></a> <div class="panel-body"> <p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> : <span style="padding-right: 15px">04-77-21-61-98</span> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> : <span style="padding-right: 15px">test@test0.fr</span></p> </div> </div> <div class="panel panel-default"> <a href="#/client"><span class="panel-heading panel-heading-bc">Nom et Pr&eacute;nom client 3<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></span></a> <div class="panel-body"> <p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> : <span style="padding-right: 15px">04-77-21-61-98</span> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> : <span style="padding-right: 15px">test@test0.fr</span></p> </div> </div> <div class="panel panel-default"> <a href="#/client"><span class="panel-heading panel-heading-bc">Nom et Pr&eacute;nom client 4<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></span></a> <div class="panel-body"> <p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> : <span style="padding-right: 15px">04-77-21-61-98</span> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> : <span style="padding-right: 15px">test@test0.fr</span></p> </div> </div> <!--
+  <hr>
+
+  <h3>Liste de mes projets version 2</h3>
+
+  <table class="table">
+    <thead>
+    <tr>
+      <td>Référence</td>
+      <td>Nom du projet</td>
+      <td>Total HT</td>
+      <td class="hidden-sm hidden-xs">Créé le</td>
+      <td class="hidden-sm hidden-xs">Modifié le</td>
+      <td class="hidden-sm hidden-xs">Statut</td>
+      <td></td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>N° 0</td>
+      <td>Nom du projet N° 0 avec pas mal de caracères dans le nom du projet</td>
+      <td>Total HT N° 0</td>
+      <td class="hidden-sm hidden-xs">mm-dd-YYYY</td>
+      <td class="hidden-sm hidden-xs">mm-dd-YYYY</td>
+      <td class="hidden-sm hidden-xs">Statut 0</td>
+      <td><a role="button" href="#/projet" class="btn btn-success btn-xs pull-right">Détails du projet</a></td>
+    </tr>
+    <tr>
+      <td>N° 1</td>
+      <td>Nom du projet N° 1 avec pas mal de caracères dans le nom du projet</td>
+      <td>Total HT N° 1</td>
+      <td class="hidden-sm hidden-xs">mm-dd-YYYY</td>
+      <td class="hidden-sm hidden-xs">mm-dd-YYYY</td>
+      <td class="hidden-sm hidden-xs">Statut 1</td>
+      <td><a role="button" href="#/projet" class="btn btn-success btn-xs pull-right">Détails du projet</a></td>
+    </tr>
+    <tr>
+      <td>N° 2</td>
+      <td>Nom du projet N° 2 avec pas mal de caracères dans le nom du projet</td>
+      <td>Total HT N° 2</td>
+      <td class="hidden-sm hidden-xs">mm-dd-YYYY</td>
+      <td class="hidden-sm hidden-xs">mm-dd-YYYY</td>
+      <td class="hidden-sm hidden-xs">Statut 2</td>
+      <td><a role="button" href="#/projet" class="btn btn-success btn-xs pull-right">Détails du projet</a></td>
+    </tr>
+    </tbody>
+  </table>
+  --> </div>
