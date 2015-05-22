@@ -117,10 +117,8 @@
     -->
 
 
-    <feature name="Device">
-        <param name="android-package" value="org.apache.cordova.device.Device" />
-    </feature>
+    <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
 
-    
+
 
 </widget>
