@@ -102,6 +102,11 @@
 	    </div>
 	</div>
 
+
+    <!-- En dehors de tous build il faut le laiser tel quel -->
+    <script type="text/javascript" src="phonegap.js"></script>
+
+
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="http://192.168.3.103/appli_mobile_chiffrage/app/../bower_components/jquery/dist/jquery.js"></script>
@@ -118,13 +123,17 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
+
+
+
+
+
     <script src="http://192.168.3.103/appli_mobile_chiffrage/app/scripts/site/site.js"></script>
 
     <!-- Liste des modules -->
     <script src="http://192.168.3.103/appli_mobile_chiffrage/app/scripts/modules/storage/web/webStorage.js"></script>
     <script src="http://192.168.3.103/appli_mobile_chiffrage/app/scripts/modules/synchro/synchro.js"></script>
     <script src="http://192.168.3.103/appli_mobile_chiffrage/app/scripts/modules/logs/logs.js"></script>
-
 
 
     <script src="http://192.168.3.103/appli_mobile_chiffrage/app/scripts/test_avantapp.js"></script>
