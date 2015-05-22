@@ -22,85 +22,19 @@
   </head>
   <body ng-app="appliMobileBatiChiffrageApp">
 
-
     <!-- Add your site or application content here -->
-    <div class="header">
-
-<!--
-      <div class="navbar navbar-default" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-
-            <a class="navbar-brand" href="#/">BatiChiffrage</a>
-          </div>
-
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
-
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/about">About</a></li>
-              <li><a ng-href="#/contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
--->
-
-	<div ng-if="config.profile.authentificated" ng-controller="LoginCtrl">
-      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a href="#/main" class="navbar-brand">BatiChiffrage Mobile</a>
-          </div>
-          <div class="collapse navbar-collapse" id="navbar">
-            <ul class="nav navbar-nav">
-              <li id="mains"><a href="#/main">Home</a></li>
-              <li id="projets"><a href="#/projets">Projets</a></li>
-              <li id="clients"><a href="#/clients">Clients</a></li>
-              <li id="chiffrages"><a href="#/chiffrage">Chiffrage</a></li>
-              <li id="abouts"><a href="#/about">about</a></li>
-              <li id="contacts"><a href="#/contact">contact</a></li>
-                <li ng-controler="LogsCtrl" ng-if="logs.activate"><a href="#/logs">Les logs</a></li>
-                <li id="settings"><a href="#/settings">Informations</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-            	<li><a href="#/logout">D&eacute;connexion</a></li>
-            </ul>
-          </div>
-        </div>
-
-      </nav>
-	</div>
-
-      </div>
+    <div class="header" ng-include="'views/header.html'">
 
     </div>
+
     <div class="container padding-container" ng-cloak>
-    <!--<pre>{{config | json}}</pre>-->
-    <div ng-view=""></div>
+        <div ng-view=""></div>
     </div>
 
-    <div ng-if="config.authenticated">
-	    <div ng-controller="ProjetsCtrl" class="footer">
-	      <div class="container">
-	        footer
-	        <p><span class="glyphicon glyphicon-heart"></span> BatiChiffrage.</p>
-	      </div>
-	    </div>
-	</div>
+    <div calss="footer" ng-include="'views/footer.html'">
+
+    </div>
+
 
 
     <!-- En dehors de tous build il faut le laiser tel quel -->
@@ -126,14 +60,13 @@
 
 
 
-
-
     <script src="http://192.168.3.103/appli_mobile_chiffrage/app/scripts/site/site.js"></script>
 
     <!-- Liste des modules -->
     <script src="http://192.168.3.103/appli_mobile_chiffrage/app/scripts/modules/storage/web/webStorage.js"></script>
     <script src="http://192.168.3.103/appli_mobile_chiffrage/app/scripts/modules/synchro/synchro.js"></script>
     <script src="http://192.168.3.103/appli_mobile_chiffrage/app/scripts/modules/logs/logs.js"></script>
+    <script src="http://192.168.3.103/appli_mobile_chiffrage/app/scripts/modules/phonegap/phonegap.js"></script>
 
 
     <script src="http://192.168.3.103/appli_mobile_chiffrage/app/scripts/test_avantapp.js"></script>
