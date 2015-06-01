@@ -122,6 +122,6 @@
     <gap:plugin name="org.apache.cordova.media-capture" />
     <gap:plugin name="com.synconset.imagepicker" version="1.0.4" />
     <gap:plugin name="com.jamiestarke.webviewdebug" version="1.0.8" />
-
+    <gap:plugin name="org.apache.cordova.file-transfer" version="0.3.0" />
 
 </widget>
