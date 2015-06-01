@@ -100,29 +100,14 @@
     <access origin="*" />
 
 
-    <!--
-        Define access to external domains.
-
-        <access />            - a blank access tag denies access to all external resources.
-        <access origin="*" /> - a wildcard access tag allows access to all external resource.
-
-        Otherwise, you can specify specific domains:
-
-    <access origin="http://127.0.0.1*"/>
-    <access origin="http://batiactu.com" subdomains="true" />-->
-    <!--
-        <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
-        <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
-        <access origin="http://phonegap.com" browserOnly="true" /> - only allows http://phonegap.com to be opened by the child browser.
-    -->
-
 
     <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
     <gap:plugin name="com.synconset.imagepicker" version="1.0.4" />
     <gap:plugin name="com.jamiestarke.webviewdebug" version="1.0.8" />
-    <gap:plugin name="org.apache.cordova.file" version="0.2.4" />
-    <gap:plugin name="org.apache.cordova.file-transfer" version="0.3.0" />
+
+    <gap:plugin name="org.apache.cordova.file" version="1.3.1" />
+    <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.6" />
 
 </widget>
