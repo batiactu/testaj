@@ -1,0 +1,32 @@
+<div class="modal-header">
+    <h3 class="modal-title">Choix projet et source de la photo</h3>
+</div>
+<div class="modal-body">
+
+<br>
+<select name="projet" ng-model="numProjet" title="Choix du projet">
+    <option value="0" selected>Choix projet</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+
+</select>
+
+<br>
+<input type="radio" ng-model="fromSource" name="fromSource" value="app" {{config.photo.defaultFromApp && 'checked'|| '' }}><label>Appareil photo</label><br>
+<input type="radio" ng-model="fromSource" name="fromSource" value="gal"><label>Gallery</label>
+<br>
+
+<h2>
+    {{numProjet}} - {{bbn}}
+</h2>
+
+<button ng-click="go()">Lets go photo</button>
+
+
+</div>
+<div class="modal-footer">
+    <!--<button class="btn btn-success" ng-click="ok()">OK</button>-->
+    <button class="btn btn-danger" ng-click="cancel()">Fermer</button>
+</div>
