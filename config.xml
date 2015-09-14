@@ -116,6 +116,9 @@
         <param name="ios-package" value="CDVSound" />
     </feature>
 
+    <preference name="MediaPlaybackRequiresUserAction" value="true"/>
+
+
 
 
     <!-- plugin  gallery -->
