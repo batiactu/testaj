@@ -112,13 +112,6 @@
     <gap:plugin name="org.apache.cordova.media" version="0.2.13" />
     <gap:plugin name="org.apache.cordova.media-capture" />
 
-    <!--feature name="Media">
-        <param name="ios-package" value="CDVSound" />
-    </feature>
-
-    <preference name="MediaPlaybackRequiresUserAction" value="true"/-->
-
-
     <!-- plugin  gallery -->
     <gap:plugin name="com.synconset.imagepicker" version="1.0.4" />
 
