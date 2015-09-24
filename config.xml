@@ -124,8 +124,8 @@
     <!-- plugin phonegap info network -->
     <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
 
-    <!-- plugin phonegap gestion contact telephone -->
-    <gap:plugin name="org.apache.cordova.contacts" version="0.2.13" />
+    <!-- plugin phonegap gestion contact telephone PAS POUR CETTE VERSION -->
+    <!--gap:plugin name="org.apache.cordova.contacts" version="0.2.13" /-->
 
     <!-- plugin phonegap Google Analytics -->
     <gap:plugin name="com.adobe.plugins.gaplugin" version="2.4.0" />
