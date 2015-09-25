@@ -33,8 +33,7 @@
         permission on your app, which PhoneGap requires.
     -->
     <preference name="permissions"                value="none"/>
-    <!--preference name="phonegap-version" value="cli-5.2.0" /-->
-    <preference name="phonegap-version" value="3.7.0" />
+    <preference name="phonegap-version" value="cli-5.2.0" />
 
     <!-- orientation with possible values default (both), landscape, or portrait -->
     <preference name="orientation" value="default" />
@@ -111,7 +110,6 @@
     <gap:plugin name="com.jamiestarke.webviewdebug" version="1.0.8" />
 
     <!-- plugin phonegap upload de fichier -->
-    <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.6" />
 
     <!-- plugin phonegap info network -->
     <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
