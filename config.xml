@@ -7,10 +7,10 @@
         version   = "1.0.0"
         versionCode = "1">
 
-    <name>BatiChiffrage-TEST index concat</name>
+    <name>BatiChiffrage</name>
 
     <description>
-        BatiChiffrage appli Mobile. ne pas faire de mise a jour de code
+        BatiChiffrage appli Mobile.
     </description>
 
     <author href="http://www.batiactugroupe.com" email="webmaster@batiactugroupe.com">Batiactu Groupe</author>
