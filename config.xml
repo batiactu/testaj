@@ -113,7 +113,7 @@
     <gap:plugin name="com.jamiestarke.webviewdebug" version="1.0.8" />
 
     <!-- plugin phonegap upload de fichier -->
-    <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.6" />
+    <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.6" source="npm" />
 
     <!-- plugin phonegap info network -->
     <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
