@@ -34,8 +34,8 @@
     -->
     <preference name="permissions"                value="none"/>
 
-    <preference name="phonegap-version" value="3.7.0" />
-    <!--preference name="phonegap-version" value="cli-5.2.0" /-->
+    <!--preference name="phonegap-version" value="3.7.0" /-->
+    <preference name="phonegap-version" value="cli-5.2.0" />
     <!-- cli-5.2.0 : POSE SOUCIS AVEC  inappBrowser et Filetransfert -->
 
     <!-- orientation with possible values default (both), landscape, or portrait -->
