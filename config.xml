@@ -133,9 +133,11 @@
 
 
     <!-- plugin Navigation liste blanche -->
-    <gap:config-file platform="android">
-        <gap:plugin name="com.indigoway.cordova.whitelist.whitelistplugin" version="1.1.1" />
-    </gap:config-file>
+        <gap:plugin name="com.indigoway.cordova.whitelist.whitelistplugin" version="1.1.1">
+            <param platform="android" />
+        </gap:plugin>
+
+
 
     <allow-navigation href="https://chiffrage.batiactu.com/*" />
     <allow-navigation href="http://dev.chiffrage.batiactu.com/*" />
