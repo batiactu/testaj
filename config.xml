@@ -7,10 +7,10 @@
         version   = "1.0.0"
         versionCode = "1">
 
-    <name>BatiChiffrage- eclaté TEST</name>
+    <name>BatiChiffrage</name>
 
     <description>
-        BatiChiffrage appli Mobile. Avec index eclaté : ne pas faire de mise a jour de code. sauf avec les bon index et config
+        BatiChiffrage appli Mobile.
     </description>
 
     <author href="http://www.batiactugroupe.com" email="webmaster@batiactugroupe.com">Batiactu Groupe</author>
@@ -34,8 +34,8 @@
     -->
     <preference name="permissions"                value="none"/>
 
-    <preference name="phonegap-version" value="3.7.0" />
-    <!--preference name="phonegap-version" value="cli-5.2.0" /-->
+    <!--preference name="phonegap-version" value="3.7.0" /-->
+    <preference name="phonegap-version" value="cli-5.2.0" />
     <!-- cli-5.2.0 : POSE SOUCIS AVEC  inappBrowser et Filetransfert -->
 
     <!-- orientation with possible values default (both), landscape, or portrait -->
