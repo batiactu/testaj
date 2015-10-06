@@ -133,7 +133,7 @@
 
 
     <!-- plugin Navigation liste blanche -->
-    <gap:plugin name="org.apache.cordova.whitelist"  source="npm" />
+    <gap:plugin name="org.apache.cordova.whitelist"  />
     <allow-navigation href="https://chiffrage.batiactu.com/*" />
     <allow-navigation href="http://dev.chiffrage.batiactu.com/*" />
 
