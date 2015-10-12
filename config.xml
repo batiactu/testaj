@@ -149,7 +149,7 @@
     <!--gap:plugin name="org.apache.cordova.statusbar" version="0.1.9"  /-->
 
     <!-- plugin gestion navigateur embarqué -->
-    <gap:plugin name="org.apache.cordova.inappbrowser"  source="npm" />
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
 
     <!-- plugin Navigation liste blanche -->
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
