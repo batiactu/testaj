@@ -4,8 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.batiactugroupe.batichiffrage"
-        version   = "1.0.1"
-        versionCode = "1">
+        version   = "1.0.2"
+        versionCode = "2">
 
     <name>BatiChiffrage</name>
 
@@ -94,7 +94,7 @@
 
     <!-- Version pour IOS -->
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>101.0</string>
+        <string>102.0</string>
     </gap:config-file>
 
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
