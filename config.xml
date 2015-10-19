@@ -7,10 +7,10 @@
         version   = "1.0.2"
         versionCode = "2">
 
-    <name>BatiChiffrage</name>
+    <name>BatiChiffrage- eclaté TEST</name>
 
     <description>
-        BatiChiffrage appli Mobile.
+        BatiChiffrage appli Mobile. Avec index eclaté : ne pas faire de mise a jour de code. sauf avec les bon index et config
     </description>
 
     <author href="http://www.batiactugroupe.com" email="webmaster@batiactugroupe.com">Batiactu Groupe</author>
@@ -40,9 +40,6 @@
     <preference name="orientation" value="default" />
 
     <preference name="target-device" value="universal" />
-
-    <preference name="fullscreen" value="true" /> <!-- remove the upper bar on iOS and Android -->
-
 
     <!-- Customize your app and platform with the preference element. -->
     <!-- <preference name="phonegap-version"      value="3.4.0" /> -->      <!-- all: current version of PhoneGap -->
@@ -169,6 +166,9 @@
 
     <!-- Allow geo: links to open maps -->
     <allow-intent href="geo:*" />
+
+    <!-- Allow mailto: links to send email -->
+    <allow-intent href="mailto:*" />
 
 
 </widget>
