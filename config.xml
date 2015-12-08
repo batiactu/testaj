@@ -107,16 +107,16 @@
     <access origin="*" />
 
     <!-- plugin phonegap device -->
-    <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+    <gap:plugin name="org.apache.cordova.device" version="0.3.0" />
 
     <!-- plugin phonegap file -->
-    <gap:plugin name="org.apache.cordova.file" version="1.3.1" />
+    <gap:plugin name="org.apache.cordova.file" version="1.3.3" />
 
     <!-- plugin phonegap camera -->
-    <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+    <gap:plugin name="org.apache.cordova.camera" version="0.3.6" />
 
     <!-- plugin phonegap media (son) -->
-    <gap:plugin name="org.apache.cordova.media" version="0.2.13" />
+    <gap:plugin name="org.apache.cordova.media" version="0.2.16" />
     <gap:plugin name="org.apache.cordova.media-capture" />
 
     <!-- plugin  gallery -->
@@ -129,7 +129,7 @@
     <gap:plugin name="org.apache.cordova.file-transfer"  source="npm" />
 
     <!-- plugin phonegap info network -->
-    <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
+    <gap:plugin name="org.apache.cordova.network-information" version="0.2.15" />
 
     <!-- plugin phonegap gestion contact telephone PAS POUR CETTE VERSION -->
     <!--gap:plugin name="org.apache.cordova.contacts" version="0.2.13" /-->
