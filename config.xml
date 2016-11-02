@@ -4,8 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.batiactugroupe.batichiffrage"
-        version   = "1.0.3"
-        versionCode = "3">
+        version   = "1.0.4"
+        versionCode = "4">
 
     <name>BatiChiffrage Mobile</name>
 
@@ -26,7 +26,7 @@
         The "device" permission is required for the 'deviceready' event.
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
-    
+
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
@@ -34,7 +34,7 @@
     -->
     <preference name="permissions"                value="none"/>
 
-    <preference name="phonegap-version" value="cli-5.2.0" />
+    <preference name="phonegap-version" value="cli-6.3.0" />
 
     <!-- orientation with possible values default (both), landscape, or portrait -->
     <preference name="orientation" value="default" />
@@ -106,42 +106,44 @@
     <!-- cross origin -->
     <access origin="*" />
 
+    <!-- DEBUT DES PLUGINS -->
+
     <!-- plugin phonegap device -->
-    <gap:plugin name="org.apache.cordova.device" version="0.3.0" />
+    <gap:plugin name="cordova-plugin-device" source="npm" version="1.1.3" />
 
     <!-- plugin phonegap file -->
-    <gap:plugin name="org.apache.cordova.file" version="1.3.3" />
+    <gap:plugin name="cordova-plugin-file" source="npm"  version="4.3.0" />
 
     <!-- plugin phonegap camera -->
-    <gap:plugin name="org.apache.cordova.camera" version="0.3.6" />
+    <gap:plugin name="cordova-plugin-camera" source="npm" version="2.3.0" />
 
     <!-- plugin phonegap media (son) -->
-    <gap:plugin name="org.apache.cordova.media" version="0.2.16" />
-    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="cordova-plugin-media" source="npm" version="2.4.0" />
+    <gap:plugin name="cordova-plugin-media-capture" source="npm" version="1.4.0" />
 
     <!-- plugin  gallery -->
-    <gap:plugin name="com.synconset.imagepicker" version="1.0.4" />
+    <gap:plugin name="cordova-plugin-imagepicker" source="npm" version="1.6.0" />
 
-    <!-- plugin webview pour debug sous android -->
-    <gap:plugin name="com.jamiestarke.webviewdebug" version="1.0.8" />
+    <!-- plugin webview pour debug sous android NON TROUVE NPM-->
+    <!--gap:plugin name="com.jamiestarke.webviewdebug" version="1.0.8" /-->
 
     <!-- plugin phonegap upload de fichier -->
-    <gap:plugin name="org.apache.cordova.file-transfer" source="pgb"  version="0.5.0"  />
+    <gap:plugin name="cordova-plugin-file-transfer" source="npm"  version="1.6.0"  />
 
     <!-- plugin phonegap info network -->
-    <gap:plugin name="org.apache.cordova.network-information" version="0.2.15" />
+    <gap:plugin name="cordova-plugin-network-information" source="npm" version="1.3.0" />
 
     <!-- plugin phonegap gestion contact telephone PAS POUR CETTE VERSION -->
     <!--gap:plugin name="org.apache.cordova.contacts" version="0.2.13" /-->
 
-    <!-- plugin phonegap Google Analytics -->
-    <gap:plugin name="com.adobe.plugins.gaplugin" version="2.4.0" />
+    <!-- plugin phonegap Google Analytics NON TROUVE NPM : NECESSAIRE ???-->
+    <!-- gap:plugin name="com.adobe.plugins.gaplugin" version="2.4.0" /-->
 
     <!-- plugin gestion clavier -->
-    <gap:plugin name="com.ionic.keyboard" version="1.0.3" />
+    <gap:plugin name="ionic-plugin-keyboard" source="npm" version="2.2.1" />
 
     <!-- plugin gestion statusbar IOS -->
-    <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+    <gap:plugin name="cordova-plugin-statusbar" source="npm"  version="2.2.0" />
     <!-- a tester -->
     <!--gap:plugin name="org.apache.cordova.statusbar" version="0.1.9"  /-->
 
@@ -150,6 +152,8 @@
 
     <!-- plugin Navigation liste blanche -->
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+
+    <!-- FIN DES PLUGINS -->
 
     <allow-navigation href="https://chiffrage.batiactu.com/*" />
     <allow-navigation href="http://dev.chiffrage.batiactu.com/*" />
