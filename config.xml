@@ -125,7 +125,7 @@
     <gap:plugin name="cordova-plugin-imagepicker" source="npm" version="1.3.0" />
 
     <!-- plugin webview pour debug sous android NON TROUVE NPM-->
-    <!--gap:plugin name="com.jamiestarke.webviewdebug" version="1.0.8" /-->
+    <gap:plugin name="com.jamiestarke.webviewdebug" version="1.0.8" />
 
     <!-- plugin phonegap upload de fichier -->
     <gap:plugin name="cordova-plugin-file-transfer" source="npm"  version="1.6.0"  />
