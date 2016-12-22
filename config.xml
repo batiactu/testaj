@@ -131,7 +131,8 @@
     <gap:plugin name="cordova-plugin-network-information" source="npm" version="1.3.0" />
 
     <!-- plugin phonegap Google Analytics -->
-    <gap:plugin name="cordova-plugin-ga" source="npm" />
+    <!--gap:plugin name="cordova-plugin-ga" source="npm" /-->
+    <gap:plugin name="cordova-plugin-google-analytics" source="npm" />
 
     <!-- plugin gestion clavier -->
     <gap:plugin name="ionic-plugin-keyboard" source="npm" version="2.2.1" />
